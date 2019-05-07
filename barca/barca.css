@@ -1,0 +1,123 @@
+/* Header list start */
+body{
+background-image: url(images/cn.jpg);
+background-repeat: no-repeat;
+background-position: 0px 160px;
+width: 100%;
+height: auto;
+}
+#f1{
+line-height: 0.1;
+background-color: rgb(137,35,72);
+padding: 15px;
+}
+#title{
+  font-size: 60px;
+  color: rgb(237,188,0);
+}
+#mes{
+  font-size: 47px;
+  color: #070142;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+  .l1 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(223,182,2);
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #121659;
+  }
+/*Header list done*/
+
+/*Images ki styling*/
+#logo{
+  margin-left: 600px;
+  margin-top: 15px;
+
+}
+#precoa{
+  margin-left: 270px;
+  margin-right: 100px;
+  margin-top: 5px;
+}
+#captains{
+  margin-left: 100px;
+  margin-right: 2px;
+  margin-top: 5px;
+}
+#coach{
+  margin-left: 370px;
+}
+#cap2{
+  margin-left: 215px;
+}
+#cap3{
+  margin-left: 215px;
+}
+
+  .people div{
+    display: block;
+    -webkit-filter: drop-shadow(8px 8px 10px gray); /* Safari 6.0 - 9.0 */
+ filter: drop-shadow(8px 8px 10px gray);
+  }
+  .people figure img {
+border-radius: 50%;
+-webkit-filter: blur(0);
+filter: blur(0);
+
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+.people figure:hover img {
+    content: attr(title);
+    -webkit-filter: blur(3px);
+    filter: blur(2px);
+  cursor: pointer;
+}
+/*Images done*/
+
+/*History wagerah*/
+.xyz{
+  margin-left: 80px;
+  margin-top: 20px;
+  background-color: black;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: white;
+}
+.xyz figure:hover img{
+
+}
+.lmn{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: white;
+}
+.pqr{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: white;
+}
+.yt2{
+  display: block;
+}
